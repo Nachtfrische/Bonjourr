@@ -49,6 +49,10 @@
 	image-rendering: pixelated;
 }
 
+[data-browser='firefox'] #background-media [data-res='small'] {
+	image-rendering: auto;
+}
+
 #background-media > div {
 	transition: opacity 1.2s;
 }
